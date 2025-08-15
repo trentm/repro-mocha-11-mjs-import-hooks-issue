@@ -1,0 +1,1 @@
+# empty, here to avoid mocha walking up the dir path looking for other .mocharc files
