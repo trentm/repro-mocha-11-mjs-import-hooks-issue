@@ -2,7 +2,7 @@ This demonstrates an issue with the changes in mocha@11.7.0
 and using mocha to run a test with the following conditions:
 
 1. mocha v11.7.0 or v11.7.1 is used,
-2. node v20.19.x is used,
+2. node version ~20.19.x is used,
 3. the test file uses the .mjs extension to indicate to node that it should be run as an ES module, and *not* as a CommonJS module, and
 4. the test relies on a Node.js custom module loader being run for the test file. A custom module loader can, for example, be specified for now via `--experimental-loader ./my-loader.mjs` (https://nodejs.org/api/all.html#all_cli_--experimental-loadermodule).
 
