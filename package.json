@@ -2,6 +2,7 @@
   "name": "repro-mocha-11-mjs-issue",
   "version": "1.0.0",
   "private": true,
+  "license": "Apache-2.0",
   "scripts": {
     "test": "NODE_NO_WARNINGS=1 node --experimental-loader=./hook.mjs ./node_modules/.bin/mocha 'test/**/*.test.mjs'"
   },
