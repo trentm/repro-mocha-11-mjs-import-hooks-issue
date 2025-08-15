@@ -1,3 +1,5 @@
+https://github.com/mochajs/mocha/issues/5425
+
 This demonstrates an issue with the changes in mocha@11.7.0 and using mocha to run a test with the following conditions:
 
 1. mocha v11.7.0 or v11.7.1 is used,
@@ -78,5 +80,5 @@ If you install an earlier version of mocha@11, the test passes:
 ```
 
 The issue explains what is happening.
-TODO: link to the issue.
+https://github.com/mochajs/mocha/issues/5425
 
