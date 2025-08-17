@@ -4,7 +4,7 @@
   "private": true,
   "license": "Apache-2.0",
   "scripts": {
-    "test": "NODE_NO_WARNINGS=1 node --experimental-loader=./hook.mjs ./node_modules/.bin/mocha 'test/**/*.test.mjs'"
+    "test": "NODE_NO_WARNINGS=1 node --experimental-loader=./hook.mjs ./node_modules/mocha/bin/mocha.js 'test/**/*.test.mjs'"
   },
   "dependencies": {
     "mocha": "^11.7.1"
